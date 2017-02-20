@@ -45,11 +45,45 @@ div.configuration-block div {
 div.configuration-block li {
     float: none;
 }
+
+div.configuration-block .selected,
+.literal-block .highlighttable td.linenos,
+.literal-block .highlighttable td.linenos pre,
+.literal-block .highlighttable td.code,
+.literal-block .highlighttable td.code .highlight,
+.literal-block pre {
+    background-color: transparent; /* #18171b */
+}
+
+.literal-block .highlight pre,
+.literal-block .highlighttable td.linenos pre {
+    background-color: #18171b;
+}
+
+/* Wkhtmltopdf: avoid gray rectangles when code block is on a new page */
+div.configuration-block li {
+    background-color: transparent;
+}
+
+h1 .headerlink,
+h2 .headerlink,
+h3 .headerlink {
+    display: none;
+}
+
+p,
+.highlight-terminal {
+    page-break-inside: avoid;
+}
+
+@font-face {
+    font-family: Menlo;
+    src: url(_static/Menlo-Regular.ttf);
+}
 </style>
 {% endblock %}
 
 {% block header %}
-{# ugly way, now we have 2 body tags, but styles rely on these classes #}
 <div class="{{ pagename|get_type }} {% if isIndex %}doc_index{% else %}doc_article{% endif %} doc">
 {% endblock %}
 
@@ -58,8 +92,6 @@ div.configuration-block li {
     <div id="page-content">
         <div class="row">
             <div id="main" class="col-sm-12">
-                <h1 class="content_title">{{ title }}</h1>
-
                 <div class="page">
                 {% block body %}{% endblock %}
                 </div>
