@@ -1,13 +1,5 @@
 .. _symfony2-documentation:
 
-Symfony Documentation
-=====================
-
-.. toctree::
-    :hidden:
-
-    changelog
-
 Quick Tour
 ----------
 
@@ -96,17 +88,6 @@ Get answers quickly with reference documents:
 
 .. include:: /reference/map.rst.inc
 
-Contributing
-------------
-
-Contribute to Symfony:
-
-.. toctree::
-    :hidden:
-
-    contributing/index
-
-.. include:: /contributing/map.rst.inc
 
 Create your Own Framework
 -------------------------
