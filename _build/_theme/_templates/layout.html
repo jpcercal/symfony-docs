@@ -65,9 +65,16 @@ div.configuration-block li {
     background-color: transparent;
 }
 
+h1, h2, h3 {
+    page-break-after: avoid;
+}
+
 h1 .headerlink,
 h2 .headerlink,
-h3 .headerlink {
+h3 .headerlink,
+h4 .headerlink,
+h5 .headerlink,
+h6 .headerlink {
     display: none;
 }
 
@@ -84,6 +91,10 @@ p,
 @font-face {
     font-family: Menlo;
     src: url(_static/Menlo-Regular.ttf);
+}
+
+img {
+    max-width: 100%;
 }
 </style>
 {% endblock %}
