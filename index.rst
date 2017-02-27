@@ -3,25 +3,27 @@
 Quick Tour
 ----------
 
-Get started fast with the Symfony :doc:`Quick Tour <quick_tour/index>`:
-
 .. toctree::
-    :hidden:
+   :maxdepth: 1
 
-    quick_tour/index
+   quick_tour/the_big_picture
+   quick_tour/the_view
+   quick_tour/the_controller
+   quick_tour/the_architecture
 
-* :doc:`quick_tour/the_big_picture`
-* :doc:`quick_tour/the_view`
-* :doc:`quick_tour/the_controller`
-* :doc:`quick_tour/the_architecture`
 
 Getting Started
 ---------------
 
 .. toctree::
-    :maxdepth: 2
+    :maxdepth: 1
 
-    getting_started/index
+    setup
+    page_creation
+    routing
+    controller
+    templating
+    configuration
 
 Topics
 ------
@@ -62,9 +64,18 @@ Best Practices
 .. toctree::
     :hidden:
 
-    best_practices/index
+    best_practices/introduction
+    best_practices/creating-the-project
+    best_practices/configuration
+    best_practices/business-logic
+    best_practices/controllers
+    best_practices/templates
+    best_practices/forms
+    best_practices/i18n
+    best_practices/security
+    best_practices/web-assets
+    best_practices/tests
 
-Read the :doc:`Official Best Practices </best_practices/index>`.
 
 Components
 ----------
