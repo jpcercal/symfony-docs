@@ -947,19 +947,6 @@ Keep Going!
 
 Before diving into the rest of Symfony, check out the :doc:`configuration system </configuration>`.
 
-Learn more
-----------
-
-.. toctree::
-    :hidden:
-
-    configuration
-
-.. toctree::
-    :maxdepth: 1
-    :glob:
-
-    /templating/*
 
 .. _`Twig`: http://twig.sensiolabs.org
 .. _`tags`: http://twig.sensiolabs.org/doc/tags/index.html

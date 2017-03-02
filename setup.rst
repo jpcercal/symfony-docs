@@ -269,24 +269,6 @@ Keep Going!
 
 With setup behind you, it's time to :doc:`Create your first page in Symfony </page_creation>`.
 
-Go Deeper with Setup
---------------------
-
-.. toctree::
-    :hidden:
-
-    page_creation
-
-.. toctree::
-    :maxdepth: 1
-    :glob:
-
-    setup/homestead
-    setup/new_project_git
-    setup/built_in_web_server
-    setup/web_server_configuration
-    setup/composer
-    setup/*
 
 .. _`Joyful Development with Symfony`: http://knpuniversity.com/screencast/symfony
 .. _`Composer`: https://getcomposer.org/

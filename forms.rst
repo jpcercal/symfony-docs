@@ -695,17 +695,6 @@ There's a lot more to learn and a lot of *powerful* tricks in the form system.
 Learn more
 ----------
 
-.. toctree::
-    :hidden:
-
-    form/use_virtuals_forms
-
-.. toctree::
-    :maxdepth: 1
-    :glob:
-
-    form/*
-
 * :doc:`/controller/upload_file`
 * :doc:`/reference/forms/types`
 * :doc:`/http_cache/form_csrf_caching`

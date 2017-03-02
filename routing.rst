@@ -730,17 +730,3 @@ Keep Going!
 -----------
 
 Routing, check! Now, uncover the power of :doc:`controllers </controller>`.
-
-Learn more about Routing
-------------------------
-
-.. toctree::
-    :hidden:
-
-    controller
-
-.. toctree::
-    :maxdepth: 1
-    :glob:
-
-    routing/*

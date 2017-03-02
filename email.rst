@@ -147,15 +147,6 @@ The ``$message`` object supports many more options, such as including attachment
 adding HTML content, and much more. Fortunately, Swift Mailer covers the topic
 of `Creating Messages`_ in great detail in its documentation.
 
-Learn more
-----------
-
-.. toctree::
-    :maxdepth: 1
-    :glob:
-
-    email/*
-
 .. _`Swift Mailer`: http://swiftmailer.org/
 .. _`Creating Messages`: http://swiftmailer.org/docs/messages.html
 .. _`Mandrill`: https://mandrill.com/

@@ -319,12 +319,6 @@ See :doc:`/logging/processors` for details.
 Learn more
 ----------
 
-.. toctree::
-    :maxdepth: 1
-    :glob:
-
-    logging/*
-
 .. _Monolog: https://github.com/Seldaek/monolog
 .. _LoggerInterface: https://github.com/php-fig/log/blob/master/Psr/Log/LoggerInterface.php
 .. _`logrotate`: https://github.com/logrotate/logrotate

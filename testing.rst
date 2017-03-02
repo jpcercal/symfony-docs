@@ -897,12 +897,6 @@ section:
 Learn more
 ----------
 
-.. toctree::
-    :maxdepth: 1
-    :glob:
-
-    testing/*
-
 * :doc:`The chapter about tests in the Symfony Framework Best Practices </best_practices/tests>`
 * :doc:`/components/dom_crawler`
 * :doc:`/components/css_selector`

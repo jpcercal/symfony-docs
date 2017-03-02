@@ -599,18 +599,4 @@ Keep Going!
 
 Next, learn all about :doc:`rendering templates with Twig </templating>`.
 
-Learn more about Controllers
-----------------------------
-
-.. toctree::
-    :hidden:
-
-    templating
-
-.. toctree::
-    :maxdepth: 1
-    :glob:
-
-    controller/*
-
 .. _`unvalidated redirects security vulnerability`: https://www.owasp.org/index.php/Open_redirect

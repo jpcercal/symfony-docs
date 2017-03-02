@@ -350,15 +350,6 @@ of relying only on Symfony documentation and code examples, you have access
 to a world of knowledge related to HTTP caching and gateway caches such as
 Varnish.
 
-Learn more
-----------
-
-.. toctree::
-    :maxdepth: 1
-    :glob:
-
-    http_cache/*
-
 .. _`Things Caches Do`: http://2ndscale.com/writings/things-caches-do
 .. _`Cache Tutorial`: http://www.mnot.net/cache_docs/
 .. _`Varnish`: https://www.varnish-cache.org/

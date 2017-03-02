@@ -385,13 +385,4 @@ part of Symfony individually by following the guides. Check out:
 
 And the many other topics.
 
-Learn more
-----------
-
-.. toctree::
-    :maxdepth: 1
-    :glob:
-
-    configuration/*
-
 .. _`Incenteev Parameter Handler`: https://github.com/Incenteev/ParameterHandler

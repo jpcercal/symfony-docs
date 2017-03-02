@@ -273,12 +273,6 @@ and a caching system.
 If you want to leverage the full power of the Symfony Serializer component,
 take a look at how this bundle works.
 
-.. toctree::
-    :maxdepth: 1
-    :glob:
-
-    serializer/*
-
 .. _`APCu`: https://github.com/krakjoe/apcu
 .. _`ApiPlatform`: https://github.com/api-platform/core
 .. _`JSON-LD`: http://json-ld.org

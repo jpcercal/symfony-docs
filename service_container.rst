@@ -479,13 +479,5 @@ Injecting the dependency by the setter method just needs a change of syntax:
                       arguments:
                           - '@app.mailer'
 
-Learn more
-----------
-
-.. toctree::
-    :maxdepth: 1
-    :glob:
-
-    /service_container/*
 
 .. _`service-oriented architecture`: https://en.wikipedia.org/wiki/Service-oriented_architecture

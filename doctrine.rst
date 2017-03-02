@@ -907,12 +907,6 @@ and event listeners.
 Learn more
 ----------
 
-.. toctree::
-    :maxdepth: 1
-    :glob:
-
-    doctrine/*
-
 * `DoctrineFixturesBundle`_
 * `DoctrineMongoDBBundle`_
 

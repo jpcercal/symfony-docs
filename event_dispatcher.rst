@@ -279,12 +279,3 @@ its name:
 .. code-block:: terminal
 
     $ php bin/console debug:event-dispatcher kernel.exception
-
-Learn more
-----------
-
-.. toctree::
-    :maxdepth: 1
-    :glob:
-
-    event_dispatcher/*

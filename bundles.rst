@@ -175,10 +175,4 @@ the bundle.
 Learn more
 ----------
 
-.. toctree::
-    :maxdepth: 1
-    :glob:
-
-    bundles/*
-
 _`third-party bundles`: http://knpbundles.com

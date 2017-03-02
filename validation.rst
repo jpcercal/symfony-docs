@@ -662,11 +662,5 @@ to validate any object.
 Learn more
 ----------
 
-.. toctree::
-    :maxdepth: 1
-    :glob:
-
-    /validation/*
-
 .. _Validator: https://github.com/symfony/validator
 .. _JSR303 Bean Validation specification: http://jcp.org/en/jsr/detail?id=303

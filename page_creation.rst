@@ -251,21 +251,6 @@ the :doc:`form system </forms>`, using :doc:`Doctrine </doctrine>`
 
 Have fun!
 
-Go Deeper with HTTP & Framework Fundamentals
---------------------------------------------
-
-.. toctree::
-    :hidden:
-
-    routing
-
-
-.. toctree::
-    :maxdepth: 1
-    :glob:
-
-    introduction/*
-
 .. _`Twig`: http://twig.sensiolabs.org
 .. _`Composer`: https://getcomposer.org
 .. _`Joyful Development with Symfony`: http://knpuniversity.com/screencast/symfony/first-page

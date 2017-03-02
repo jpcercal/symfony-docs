@@ -296,12 +296,6 @@ you can extend your test from
 Learn More
 ----------
 
-.. toctree::
-    :maxdepth: 1
-    :glob:
-
-    console/*
-
 The console component also contains a set of "helpers" - different small
 tools capable of helping you with different tasks:
 
