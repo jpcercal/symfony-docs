@@ -58,6 +58,7 @@ div.configuration-block .selected,
 .literal-block .highlight pre,
 .literal-block .highlighttable td.linenos pre {
     background-color: #18171b;
+    overflow-x: hidden;
 }
 
 /* Wkhtmltopdf: avoid gray rectangles when code block is on a new page */
@@ -69,12 +70,7 @@ h1, h2, h3 {
     page-break-after: avoid;
 }
 
-h1 .headerlink,
-h2 .headerlink,
-h3 .headerlink,
-h4 .headerlink,
-h5 .headerlink,
-h6 .headerlink {
+.headerlink {
     display: none;
 }
 
@@ -95,6 +91,53 @@ p,
 
 img {
     max-width: 100%;
+}
+
+div.configuration-block .selected,
+.literal-block pre {
+    background-color: black; /* #18171b */
+}
+
+h1 {
+    counter-reset: chapter;
+}
+
+h1 {
+    page-break-before: always;
+    text-align: center;
+    font-size: 36px;
+}
+
+h1::before {
+    margin-bottom: 2cm;
+    content: url(_static/symfony_black_03.svg);
+    width: 5cm;
+    display: block;
+    margin-top: 8cm;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2 {
+    text-align: center;
+    page-break-before: always;
+    text-align: center;
+    height: 100%;
+    font-size: 24px;
+    margin-top: 3cm;
+    margin-bottom: 2cm;
+    font-weight: bold;
+}
+
+h2::before {
+    text-align: center;
+    margin-top: 1cm;
+    margin-bottom: 0.5cm;
+    counter-increment: chapter;
+    content: "Chapter " counter(chapter);
+    display: block;
+    font-size: 20px;
+    font-weight: normal;
 }
 </style>
 {% endblock %}
