@@ -27,7 +27,7 @@ to use PHP :ref:`with Nginx <web-server-nginx>`.
 
     If your hosting provider requires you to change the ``public/`` directory to
     another location (e.g. ``public_html/``) make sure you
-    :ref:`override the location of the public/ directory <override-web-dir>`.
+    :ref:`override the location of the public/ directory <override-public-dir>`.
 
 .. _web-server-apache-mod-php:
 

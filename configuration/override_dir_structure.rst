@@ -11,12 +11,9 @@ directory structure is:
 .. code-block:: text
 
     your-project/
-    ├─ app/
-    │  ├─ config/
-    │  ├─ Resources/
-    │  │  └─ views/
-    │  └─ ...
     ├─ bin/
+    │  └─ ...
+    ├─ config/
     │  └─ ...
     ├─ src/
     │  └─ ...
@@ -28,7 +25,7 @@ directory structure is:
     │  └─ ...
     ├─ vendor/
     │  └─ ...
-    └─ web/
+    └─ public/
        ├─ app.php
        └─ ...
 
@@ -93,7 +90,7 @@ Here you have changed the location of the directory to ``var/{environment}/log``
 Override the Templates Directory
 --------------------------------
 
-If your templates are not stored in the default ``app/Resources/views/``
+If your templates are not stored in the default ``templates/``
 directory, use the :ref:`twig.paths <config-twig-paths>` configuration option to
 define your own templates directory (or directories):
 
@@ -133,12 +130,12 @@ define your own templates directory (or directories):
             ),
         ));
 
-.. _override-web-dir:
+.. _override-public-dir:
 
-Override the ``web`` Directory
-------------------------------
+Override the ``public`` Directory
+---------------------------------
 
-If you need to rename or move your ``web`` directory, the only thing you
+If you need to rename or move your ``public`` directory, the only thing you
 need to guarantee is that the path to the ``var`` directory is still correct
 in your ``app.php`` and ``app_dev.php`` front controllers. If you simply
 renamed the directory, you're fine. But if you moved it in some way, you
@@ -162,16 +159,16 @@ You also need to change the ``extra.symfony-web-dir`` option in the
 .. tip::
 
     Some shared hosts have a ``public_html`` web directory root. Renaming
-    your web directory from ``web`` to ``public_html`` is one way to make
+    your public directory from ``public`` to ``public_html`` is one way to make
     your Symfony project work on your shared host. Another way is to deploy
     your application to a directory outside of your web root, delete your
     ``public_html`` directory, and then replace it with a symbolic link to
-    the ``web`` in your project.
+    the ``publix`` in your project.
 
 .. note::
 
     If you use the AsseticBundle, you need to configure the ``read_from`` option
-    to point to the correct ``web`` directory:
+    to point to the correct ``public`` directory:
 
     .. configuration-block::
 
